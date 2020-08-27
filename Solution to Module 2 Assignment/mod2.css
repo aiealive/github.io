@@ -1,0 +1,50 @@
+body { font-family: all;
+ font-style: italic;
+ 
+}
+#A { background-color: blue;
+}
+#C { background-color: red;
+  }
+
+h1 {text-align: center;
+color: white;
+}
+
+div.container { position: relative;
+  box-sizing: border-box;
+  width: 50%;
+  height: 50%;
+  border: 4px solid black;
+  background-color: brown;
+  font-size: 20px;
+} 
+
+.box {box-sizing: : border-box;
+  position: relative;
+  left: 40px;
+  right: 40px;
+  bottom: 45px;
+  display: inline-block;
+  width: 350px;
+  height:150px;
+  border: 1px solid black;
+  background-color: purple;
+  color: yellow;
+  margin: 30px;
+  }
+
+  #title {box-sizing: border-box;
+  width: 70px ;
+  border: 1px solid black;  
+  float: right;
+  margin-bottom: 1px;
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;}
+
+ @media (min-width: 992px) {
+    div.container { width: 70%;
+      height: 15%;
+       } }
